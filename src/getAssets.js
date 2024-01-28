@@ -2,8 +2,8 @@ const avatarApi = "https://brickite.com/api/v1/games/retrieveAvatar?id="
 
 async function getAssetURL(id) {
 
-    const polyApi = "https://api.brick-hill.com/v1/assets/getPoly/1/"
-    const assetApi = " http://www.brickite.com/api/legacy/client/getAsset?id="
+    const polyApi = "https://www.brickite.com/api/legacy/client/getAsset?id="
+    const assetApi = "http://www.brickite.com/api/legacy/client/getAsset?id= "
 
     let res = await fetch(polyApi+id)
     let data = await res.json()

@@ -53,7 +53,7 @@ if (bhpSettings.f_Badges) {
                 html = ""
 
             for (let award of awards)
-                html += `<img src="https://www.brickite.com/images/awards/${award.award_id}.png" style="width:40px">`
+                html += `<img src="https://www.brickite.com/images/awards/{award.award_id}.png" style="width:40px">`
 
             mainDiv.innerHTML += html
         })
