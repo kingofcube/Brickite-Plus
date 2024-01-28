@@ -5,7 +5,6 @@
     "version": "1.0.7.4",
     "description": "Adds features around the Brickite website to make navigating, talking, customizing avatars, and more much easier.",
     "manifest_version": 2,
-    "runtimeArgs": ["--load-extension=${workspaceFolder}"],
 
     "content_scripts": [
         {

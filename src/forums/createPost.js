@@ -26,7 +26,7 @@ function getYoutubeID(link) {
     let match = link.match(youtubeRegex)
     if (!match) return null
 
-    return "https://www.youtube.com/embed/" + ((match[5] === "watch") ? match[6].match(/\?t=[0-9]+\&v=([a-zA-Z0-9]+)&feature=youtu.be/)[1] : match[5]).toUpperCase()
+    return "https://www.youtube.com/embed/" + ((match[5] === "watch") ? match[6].match(/\?t=[0-9]+\&v=([a-zA-Z0-9]+)&feature=youtu.be/)[1] : match[5])
 }
 
 let replies = document.querySelectorAll("blockquote.red")

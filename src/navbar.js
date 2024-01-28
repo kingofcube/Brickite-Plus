@@ -1,7 +1,7 @@
 const customButton = bhpSettings.n_CustomButton
 if (customButton.name && customButton.link) {
 
-    const navbar = $("div.primary > div.grid > div.push-left > ul")
+    const navbar = $("div.primary > div.grid > div.push-left > div > ul")
     const li = document.createElement("li")
     const a = document.createElement("a")
 

@@ -1,8 +1,8 @@
 const url = window.location.href
 const userId = url.match(/-?[0-9]+/)[0]
 const api = "https://brickite.com/api/v1/games/retrieveAvatar?id="
-const hatApi = "https://api.brick-hill.com/v1/shop/"
-const userApi = "https://api.brick-hub.com/v1/user/"
+const hatApi = "https://www.brickite.com/api/v1/shop/"
+const userApi = "https://www.brickite.com/api/v1/user/profile?id="
 
 // Creatubg each element with creatElement to prevent XSS
 // Thanks to Dragonian 

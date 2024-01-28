@@ -39,10 +39,10 @@ if (bhpSettings.f_Badges) {
         .then(res => res.json())
         .then(async data => {
             let awards = data.awards
-            let isAdmin = awards.find(award => award.award_id === 3)
-            let isJackpot = awards.find(award => award.award_id === 2)
-            let isSaint = awards.find(award => award.award_id === 5)
-            let isDonator = awards.find(award => award.award_id === 4)
+            let isAdmin = awards.find(award => award.award_id === 3);
+            let isJackpot = awards.find(award => award.award_id === 2);
+            let isSaint = awards.find(award => award.award_id === 5);
+            let isDonator = awards.find(award => award.award_id === 4);
 
             // Add a break for non-admins so that the awards are under their post count
             let html = (bhpSettings.f_PPD) ? "" : "<br>"
