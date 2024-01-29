@@ -7,5 +7,7 @@ Brickite+ is a browser extension that ports BH+ to Brickite.
 </p>
 
 ## FAQ
-- Q: **Why doesnt this work with the new site layout??**\
+- Q: **Why doesnt this work with the new site layout?**\
   A: Im trying to fix it, please be patient.
+- Q: **Is there Firefox support?**\
+  A: Nope, thats on my todo list though.
