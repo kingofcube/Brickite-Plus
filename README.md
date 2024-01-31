@@ -10,4 +10,4 @@ Brickite+ is a browser extension that ports BH+ to Brickite.
 - Q: **Why doesnt this work with the new site layout?**\
   A: Im trying to fix it, please be patient.
 - Q: **Is there Firefox support?**\
-  A: Nope, thats on my todo list though.
+  A: Yes, you just have to zip it using the "web-ext build" command and then load it in "[about:debugging](about:debugging#/runtime/this-firefox)".
